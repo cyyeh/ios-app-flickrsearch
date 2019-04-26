@@ -47,7 +47,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AFCDBA40218F9F7800B1C80C /* FlickrFiles */ = {
+		AFCDBA40218F9F7800B1C80C /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				AFCDBA41218F9F7800B1C80C /* FlickrSearchResults.swift */,
@@ -55,7 +55,7 @@
 				AFCDBA43218F9F7800B1C80C /* Flickr.swift */,
 				AF215EE22194B68100B18466 /* Result.swift */,
 			);
-			path = FlickrFiles;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D2A5F1F71F4A9143005CD714 = {
@@ -79,17 +79,41 @@
 		D2A5F2021F4A9144005CD714 /* FlickrSearch */ = {
 			isa = PBXGroup;
 			children = (
-				AFCDBA40218F9F7800B1C80C /* FlickrFiles */,
+				AFCDBA40218F9F7800B1C80C /* Model */,
+				E8A8A35A226D9E0B007862B9 /* View */,
+				E8A8A35B226D9E18007862B9 /* Controller */,
+				E8A8A35C226D9E2D007862B9 /* Resources */,
 				D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */,
+				D2A5F20F1F4A9144005CD714 /* Info.plist */,
+			);
+			path = FlickrSearch;
+			sourceTree = "<group>";
+		};
+		E8A8A35A226D9E0B007862B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E85104CA22544E32004379C3 /* FlickrPhotoHeaderView.swift */,
+				E85104C622544162004379C3 /* FlickrPhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8A8A35B226D9E18007862B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E85104C222543133004379C3 /* FlickrPhotosViewControllerCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E8A8A35C226D9E2D007862B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				D2A5F2071F4A9144005CD714 /* Main.storyboard */,
 				D2A5F20A1F4A9144005CD714 /* Assets.xcassets */,
 				5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */,
-				D2A5F20F1F4A9144005CD714 /* Info.plist */,
-				E85104C222543133004379C3 /* FlickrPhotosViewControllerCollectionViewController.swift */,
-				E85104C622544162004379C3 /* FlickrPhotoCell.swift */,
-				E85104CA22544E32004379C3 /* FlickrPhotoHeaderView.swift */,
 			);
-			path = FlickrSearch;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
